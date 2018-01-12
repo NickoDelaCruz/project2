@@ -3,7 +3,7 @@ body {
   background-color: lightpink;
 }
 
-#Ruby {
+#Ruby, #Csharp, #Java{
   display: none;
 }
 

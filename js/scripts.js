@@ -4,17 +4,17 @@ $(document).ready(function() {
 
   if (starter==="startups") {
     $('#Ruby').fadeToggle();
-    $('#Water').hide();
-    $('#Grass').hide();
-  } else if (starter==="Bulbasaur") {
-    $('#Grass').fadeToggle();
-    $('#Water').hide();
-    $('#Fire').hide();
+    $('#WCsharp').hide();
+    $('#GJava').hide();
+  } else if (starter==="enterprise") {
+    $('#Csharp').fadeToggle();
+    $('#Ruby').hide();
+    $('#Java').hide();
   }
-    else if (starter==="Squirtle") {
-      $('#Water').fadeToggle();
-      $('#Grass').hide();
-      $('#Fire').hide();
+    else if (starter==="established") {
+      $('#Java').fadeToggle();
+      $('#Csharp').hide();
+      $('#Ruby').hide();
     }
     event.preventDefault();
   });
