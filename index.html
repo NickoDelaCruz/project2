@@ -8,17 +8,16 @@
     <title>Choose your language!</title>
   </head>
   <body>
-   <h1 class="jumbotron"> Which language is best for you?</h1>
+    <h1 class="jumbotron"> Which language is best for you?</h1>
     <div class="container">
-      <form id="q1">
-          <div class="well">
-            <label for="starters">What kind of company structure do you prefer?</label>
-            <div class="radio">
+       <div class="well">
+        <label for="starters">What kind of company structure do you prefer?</label>
+         <div class="radio">
           <label>
-            <input type="radio" name="start" value="startups">
+           <input type="radio" name="start" value="startups">
             Startups
           </label>
-        </div>
+         </div>
         <div class="radio">
           <label>
             <input type="radio" name="start" value="enterprise">
@@ -32,9 +31,12 @@
           </label>
         </div>
       </div>
+
+
       <div class="well">
-        <label for="starters1"> Pick a website/app that interests you the most</label>
-        <div class="radio">
+        <label for="starters1"> Pick a website/app that interests you the most
+        </label>
+      <div class="radio">
         <label>
           <input type="radio" name="start1" value="hulu">
           Hulu
@@ -42,7 +44,7 @@
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="start1" value="gmail">
+         <input type="radio" name="start1" value="gmail">
           Gmail
         </label>
       <div class="radio">
@@ -51,26 +53,42 @@
           Operatining Systems/Hardware
         </label>
       </div>
-    </div>
-
-
-
-
-
-
-
-
-
       </div>
-      <button type="submit" class="btn">Submit</button>
+      </div>
+
+      <div class="well">
+        <label for="age">Age group</label>
+          <select class="form" id="age">
+            <option>12-18</option>
+            <option>19-25</option>
+            <option>30+</option>
+          </select>
+        </div>
+
+      <div class="well">
+        <label for="education"> What is the highest degree or level of school you have completed</label>
+          <select class="form-control" id="education">
+            <option>No schooling completed</option>
+            <option>Nursery school to 8th grade</option>
+            <option>Some high school, no diploma</option>
+            <option>High school graduate, diploma or the equivalent (for example: GED)</option>
+            <option>Some college credit, no degree</option>
+            <option>Trade/technical/vocational training</option>
+            <option>Associate degree</option>
+            <option>Bachelor’s degree</option>
+            <option>Master’s degree</option>
+            <option>Professional degree</option>
+            <option>Doctorate degree</option>
+          </select>
+        </div>
+
+    <button type="submit" class="btn">Submit</button>
     </form>
-
-
     <div id="Ruby">
       <h1> Congrats your prefered language is: <strong>Ruby</strong></h1>
     </div>
     <div id="Csharp">
-      <h1> Congrats your prefered language is: <strong>C++</strong></h1>
+      <h1> Congrats your prefered language is: <strong>C Sharp</strong></h1>
     </div>
     <div id="Java">
       <h1> Congrats your prefered language is: <strong>Java</strong></h1>
