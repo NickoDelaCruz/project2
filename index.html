@@ -10,31 +10,57 @@
   <body>
    <h1 class="jumbotron"> Which language is best for you?</h1>
     <div class="container">
-      <form id="info-form">
+      <div class="well">
+      <div class="enterName">
+          <label for="name">Name: </label>
+          <input id="name" class="name" type="text">
+        </div>
+      </div>
        <div class="well">
         <div class="survey">
-         <label for="workE"> What kind of company do you prefer?</label>
+         <label for="q1"> What kind of company do you prefer?</label>
           <div class="radio">
            <label>
-            <input type="radio" name="language" value="startup">
+            <input type="radio" name="question1" value="startup">
               Startups
             </label>
             </div>
-            <div class="radio">
+          <div class="radio">
             <label>
-            <input type="radio" name="language" value="enterprise">
+            <input type="radio" name="question1" value="enterprise">
              Enterprise
            </label>
-           </div>
-           <div class="radio">
+          </div>
+          <div class="radio">
             <label>
-            <input type="radio" name="language" value"established">
+            <input type="radio" name="question1" value"established">
              Established
            </label>
-           </div>
+          </div>
         </div>
       </div>
-    </div>
+         <div class="well">
+          <label for="q2"> Pick a website/app that interests you the most</label>
+         <div class="radio">
+          <label>
+          <input type="radio" name-="question2" value="hulu">
+            Hulu
+         </div>
+         <div class="radio">
+            <label>
+            <input type="radio" name-="question2" value="gmail">
+              Gmail
+         </div>
+         <div class="radio">
+           <label>
+           <input type="radio" name-="question2" value="hulu">
+             Operating systems, browsers, and or hardware
+           </div>
+         </div>
+
+
+
+
     <button type="submit" class="btn">submit!</button>
 
 
