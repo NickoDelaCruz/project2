@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   if (starter==="startups") {
     $('#Ruby').fadeToggle();
-    $('#WCsharp').hide();
+    $('#Csharp').hide();
     $('#GJava').hide();
   } else if (starter==="enterprise") {
     $('#Csharp').fadeToggle();
