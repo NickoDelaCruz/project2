@@ -9,69 +9,36 @@
   </head>
   <body>
    <h1 class="jumbotron"> Which language is best for you?</h1>
-    <div class="container">
-      <div class="well">
-      <div class="enterName">
-          <label for="name">Name: </label>
-          <input id="name" class="name" type="text">
-        </div>
-      </div>
-       <div class="well">
-        <div class="survey">
-         <label for="q1"> What kind of company do you prefer?</label>
-          <div class="radio">
-           <label>
-            <input type="radio" name="question1" value="startup">
-              Startups
-            </label>
-            </div>
-          <div class="radio">
-            <label>
-            <input type="radio" name="question1" value="enterprise">
-             Enterprise
-           </label>
-          </div>
-          <div class="radio">
-            <label>
-            <input type="radio" name="question1" value"established">
-             Established
-           </label>
-          </div>
-        </div>
-      </div>
-         <div class="well">
-          <label for="q2"> Pick a website/app that interests you the most</label>
-         <div class="radio">
+    <div class="container"></div>
+      <form id="q1">
+          <div class="well">
+            <label for="starters">What kind of company do you prefer?</label>
+            <div class="radio">
           <label>
-          <input type="radio" name-="question2" value="hulu">
-            Hulu
-         </div>
-         <div class="radio">
-            <label>
-            <input type="radio" name-="question2" value="gmail">
-              Gmail
-         </div>
-         <div class="radio">
-           <label>
-           <input type="radio" name-="question2" value="hulu">
-             Operating systems, browsers, and or hardware
-           </div>
-         </div>
-
-
-
-
-    <button type="submit" class="btn">submit!</button>
-
+            <input type="radio" name="start" value="startups">
+            Startups
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="start" value="enterpise">
+            Enterpise
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="start" value="established">
+            Established
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn">I Choose You!</button>
+    </form>
 
 
     <div id="Ruby">
       <h1> Congrats your prefered language is: <strong>Ruby</strong></h1>
-      <button type="submit1" class="btn">Click here to read more</button>
     </div>
-
-
-
 
 
 
